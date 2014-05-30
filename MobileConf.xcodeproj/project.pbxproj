@@ -23,6 +23,7 @@
 		C21F6B9619377763009F2F85 /* PrincipalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21F6B9419377763009F2F85 /* PrincipalViewController.xib */; };
 		C2FA7F281938C03E00758648 /* ListaMotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FA7F271938C03E00758648 /* ListaMotoTableViewController.m */; };
 		C2FA7F2B1938C11B00758648 /* Moto.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FA7F2A1938C11B00758648 /* Moto.m */; };
+		C2FA7F2F1938E0CA00758648 /* moto-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FA7F2E1938E0CA00758648 /* moto-icon.png */; };
 		CE54EC54F0474FD9BD96594C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FF956DD9E0408AAB0037CE /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		C2FA7F271938C03E00758648 /* ListaMotoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListaMotoTableViewController.m; path = ../ListaMotoTableViewController.m; sourceTree = "<group>"; };
 		C2FA7F291938C11B00758648 /* Moto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Moto.h; path = ../Moto.h; sourceTree = "<group>"; };
 		C2FA7F2A1938C11B00758648 /* Moto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Moto.m; path = ../Moto.m; sourceTree = "<group>"; };
+		C2FA7F2E1938E0CA00758648 /* moto-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "moto-icon.png"; path = "../moto-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		C21F6B6919377751009F2F85 /* MobileConf */ = {
 			isa = PBXGroup;
 			children = (
+				C2FA7F2E1938E0CA00758648 /* moto-icon.png */,
 				C2FA7F291938C11B00758648 /* Moto.h */,
 				C2FA7F2A1938C11B00758648 /* Moto.m */,
 				C2FA7F261938C03E00758648 /* ListaMotoTableViewController.h */,
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C21F6B6E19377751009F2F85 /* InfoPlist.strings in Resources */,
+				C2FA7F2F1938E0CA00758648 /* moto-icon.png in Resources */,
 				C21F6B9619377763009F2F85 /* PrincipalViewController.xib in Resources */,
 				C21F6B7619377751009F2F85 /* Images.xcassets in Resources */,
 			);
