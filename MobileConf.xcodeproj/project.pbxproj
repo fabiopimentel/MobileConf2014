@@ -21,6 +21,9 @@
 		C21F6B8919377751009F2F85 /* MobileConfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C21F6B8819377751009F2F85 /* MobileConfTests.m */; };
 		C21F6B9519377763009F2F85 /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21F6B9319377763009F2F85 /* PrincipalViewController.m */; };
 		C21F6B9619377763009F2F85 /* PrincipalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21F6B9419377763009F2F85 /* PrincipalViewController.xib */; };
+		C2FA7F281938C03E00758648 /* ListaMotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FA7F271938C03E00758648 /* ListaMotoTableViewController.m */; };
+		C2FA7F2B1938C11B00758648 /* Moto.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FA7F2A1938C11B00758648 /* Moto.m */; };
+		CE54EC54F0474FD9BD96594C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FF956DD9E0408AAB0037CE /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12FF956DD9E0408AAB0037CE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6CADCF47D84BF69331499F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		C21F6B6019377751009F2F85 /* MobileConf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileConf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21F6B6319377751009F2F85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C21F6B6519377751009F2F85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,9 +55,13 @@
 		C21F6B8419377751009F2F85 /* MobileConfTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileConfTests-Info.plist"; sourceTree = "<group>"; };
 		C21F6B8619377751009F2F85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C21F6B8819377751009F2F85 /* MobileConfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileConfTests.m; sourceTree = "<group>"; };
-		C21F6B9219377763009F2F85 /* PrincipalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
-		C21F6B9319377763009F2F85 /* PrincipalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
-		C21F6B9419377763009F2F85 /* PrincipalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrincipalViewController.xib; sourceTree = "<group>"; };
+		C21F6B9219377763009F2F85 /* PrincipalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrincipalViewController.h; path = ../PrincipalViewController.h; sourceTree = "<group>"; };
+		C21F6B9319377763009F2F85 /* PrincipalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrincipalViewController.m; path = ../PrincipalViewController.m; sourceTree = "<group>"; };
+		C21F6B9419377763009F2F85 /* PrincipalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PrincipalViewController.xib; path = ../PrincipalViewController.xib; sourceTree = "<group>"; };
+		C2FA7F261938C03E00758648 /* ListaMotoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListaMotoTableViewController.h; path = ../ListaMotoTableViewController.h; sourceTree = "<group>"; };
+		C2FA7F271938C03E00758648 /* ListaMotoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListaMotoTableViewController.m; path = ../ListaMotoTableViewController.m; sourceTree = "<group>"; };
+		C2FA7F291938C11B00758648 /* Moto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Moto.h; path = ../Moto.h; sourceTree = "<group>"; };
+		C2FA7F2A1938C11B00758648 /* Moto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Moto.m; path = ../Moto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 				C21F6B6619377751009F2F85 /* CoreGraphics.framework in Frameworks */,
 				C21F6B6819377751009F2F85 /* UIKit.framework in Frameworks */,
 				C21F6B6419377751009F2F85 /* Foundation.framework in Frameworks */,
+				CE54EC54F0474FD9BD96594C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,13 +92,11 @@
 		C21F6B5719377751009F2F85 = {
 			isa = PBXGroup;
 			children = (
-				C21F6B9219377763009F2F85 /* PrincipalViewController.h */,
-				C21F6B9319377763009F2F85 /* PrincipalViewController.m */,
-				C21F6B9419377763009F2F85 /* PrincipalViewController.xib */,
 				C21F6B6919377751009F2F85 /* MobileConf */,
 				C21F6B8219377751009F2F85 /* MobileConfTests */,
 				C21F6B6219377751009F2F85 /* Frameworks */,
 				C21F6B6119377751009F2F85 /* Products */,
+				BD6CADCF47D84BF69331499F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +116,7 @@
 				C21F6B6519377751009F2F85 /* CoreGraphics.framework */,
 				C21F6B6719377751009F2F85 /* UIKit.framework */,
 				C21F6B7C19377751009F2F85 /* XCTest.framework */,
+				12FF956DD9E0408AAB0037CE /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +124,13 @@
 		C21F6B6919377751009F2F85 /* MobileConf */ = {
 			isa = PBXGroup;
 			children = (
+				C2FA7F291938C11B00758648 /* Moto.h */,
+				C2FA7F2A1938C11B00758648 /* Moto.m */,
+				C2FA7F261938C03E00758648 /* ListaMotoTableViewController.h */,
+				C2FA7F271938C03E00758648 /* ListaMotoTableViewController.m */,
+				C21F6B9219377763009F2F85 /* PrincipalViewController.h */,
+				C21F6B9319377763009F2F85 /* PrincipalViewController.m */,
+				C21F6B9419377763009F2F85 /* PrincipalViewController.xib */,
 				C21F6B7219377751009F2F85 /* AppDelegate.h */,
 				C21F6B7319377751009F2F85 /* AppDelegate.m */,
 				C21F6B7519377751009F2F85 /* Images.xcassets */,
@@ -159,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C21F6B8C19377751009F2F85 /* Build configuration list for PBXNativeTarget "MobileConf" */;
 			buildPhases = (
+				6C4155A6D11F4DFAB7B04018 /* Check Pods Manifest.lock */,
 				C21F6B5C19377751009F2F85 /* Sources */,
 				C21F6B5D19377751009F2F85 /* Frameworks */,
 				C21F6B5E19377751009F2F85 /* Resources */,
+				30F8F3D3F23B49A7B707EEB0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,11 +261,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30F8F3D3F23B49A7B707EEB0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C4155A6D11F4DFAB7B04018 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C21F6B5C19377751009F2F85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2FA7F2B1938C11B00758648 /* Moto.m in Sources */,
+				C2FA7F281938C03E00758648 /* ListaMotoTableViewController.m in Sources */,
 				C21F6B7419377751009F2F85 /* AppDelegate.m in Sources */,
 				C21F6B9519377763009F2F85 /* PrincipalViewController.m in Sources */,
 				C21F6B7019377751009F2F85 /* main.m in Sources */,
@@ -364,6 +417,7 @@
 		};
 		C21F6B8D19377751009F2F85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6CADCF47D84BF69331499F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -377,6 +431,7 @@
 		};
 		C21F6B8E19377751009F2F85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6CADCF47D84BF69331499F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

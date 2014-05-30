@@ -7,6 +7,7 @@
 //
 
 #import "PrincipalViewController.h"
+#import "ListaMotoTableViewController.h"
 
 
 @interface PrincipalViewController ()
@@ -37,6 +38,8 @@
 }
 
 - (IBAction)exibeTela:(id)sender {
- 
+    ListaMotoTableViewController * lista =[[ListaMotoTableViewController alloc]init];
+    [self presentViewController:lista animated:YES completion:nil];
+    
 }
 @end
